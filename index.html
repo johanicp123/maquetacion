@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Master en CSS</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -36,9 +37,25 @@
             </li>
             <li>
                 <a href="index.html">Lenguaje</a>
+                <ul>
+                    <li>
+                        <a href="index.html">Html</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Css</a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a href="index.html">frameworks</a>
+                <ul>
+                    <li>
+                        <a href="index.html">React</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Angular</a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a href="index.html">proyecto</a>
@@ -58,5 +75,294 @@
         </ul>
     </nav>
     <!--fin de menu de navegacion-->
+
+    <!--Inicio del contenido central-->
+
+    <div id="contenido">
+
+        <!--inicio de la barra lateral-->
+
+        <aside id="aside">
+            <div class="widget" id="login">
+                <h3>Entrar a la Web</h3>
+                <form action="">
+                    <label for="">ususario:</label>
+                    <input type="text">
+                    <label for="">contraseña</label>
+                    <input type="password" name="" id="">
+                    <input type="submit" value="entrar">
+                </form>
+                <a href="#">Zona de alumnos</a>
+                <a href="#">Zona de profesor</a>
+                <a href="#">Acceso a calificaciones</a>
+            </div>
+            <div class="widget" id="login">
+                <h3 class="blue">Aula virtual 1</h3>
+                <form action="">
+                    <label for="">nombre ususario:</label>
+                    <input type="text">
+                    <label for="">contraseña</label>
+                    <input type="password" name="" id="">
+                    <input type="submit" value="entrar">                  
+                </form>
+                <a href="#">Zona de alumnos</a>
+                <a href="#">Zona de profesor</a>
+                <a href="#">Acceso a calificaciones</a>
+            </div>
+            <div class="widget" id="login">
+                <h3 class="red">Aula virtual 2</h3>
+                <form action="">
+                    <label for="">nombre ususario:</label>
+                    <input type="text">
+                    <label for="">contraseña</label>
+                    <input type="password" name="" id="">
+                    <input type="submit" value="entrar">
+                </form>
+                <a href="#">Zona de alumnos</a>
+                <a href="#">Zona de profesor</a>
+                <a href="#">Acceso a calificaciones</a>
+            </div>
+            <div class="widget" id="login">
+                <h3>Enlaces de interes</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Master en javascript
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Master en Css
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Master en Python
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Php
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        
+        <!--fin de la barra lateral-->
+
+        <!--inicio de las secciones-->
+        
+        <div id="sections">
+            <section id="frontend">
+                <span class="stickers">
+                    <img class="stickerone" src="img/scotch.png" alt="pegatina">
+                    <img class="stickertwo" src="img/scotch.png" alt="pegatina">
+                </span>
+                <h2 class="titulo">Noticias de front-end</h2>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+            </section>
+            <section id="instructor">
+                <span class="stickers">
+                    <img class="stickerone" src="img/scotch.png" alt="pegatina">
+                    <img class="stickertwo" src="img/scotch.png" alt="pegatina">
+                </span>
+                <h2 class="titulo orange" >Noticias de instructor</h2>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#" >Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+            </section>
+            <section id="backend">
+                <span class="stickers">
+                    <img class="stickerone" src="img/scotch.png" alt="pegatina">
+                    <img class="stickertwo" src="img/scotch.png" alt="pegatina">
+                </span>
+                <h2 class="titulo red">Noticias de backend</h2>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                        </svg>
+                    </span>
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Nesciunt, 
+                        aliquam.
+                    </p>
+                    <span class="date">[24-04-2022. Alberth Campos]</span>
+                </article>
+            </section>
+        </div>
+
+        <!--fin de las secciones-->
+        <aside id="frase">
+            Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. 
+            Cupiditate, rerum.
+            <a href="#">keer mas..</a>
+        </aside>
+        <div class="clearfix"></div>
+        <div id="history">
+            <a href="">[ver historico de noticias]</a>  
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <p>&copy; desarrollado por Alberth campos</p>
+        <p>Mas contenido y informacion de desarrollo web en el siguiente <a href="#">link</a></p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--fin del contenido central-->
 </body>
 </html>
